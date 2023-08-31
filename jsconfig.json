@@ -1,0 +1,14 @@
+{
+  "include": ["src"],
+  "exclude": ["node_modules"],
+  "compilerOptions": {
+    "baseUrl": "./src",
+    "paths": {
+      "~/*": ["./src/components/*"],
+      "@feat/*": ["./src/features/*"],
+      "@page/*": ["./src/pages/*"],
+      "@img/*": ["./src/images/*"],
+      "@svg/*": ["./src/images/svg/*"]
+    }
+  }
+}
